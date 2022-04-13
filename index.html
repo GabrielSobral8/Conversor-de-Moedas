@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convesor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center"><h1>Conversor de moedas</h1></div>
+    <div class = "INnOUT">
+        <div>
+      <p>Escolha a moeda de entrada:</p>
+    <div><input type="radio" name= "in" value="real">Real</div>
+    <div><input type="radio" name= "in" value="dolar">Dolar</div>
+    <div><input type="radio" name= "in" value="euro">Euro</div>
+    <div><input type="radio" name= "in" value="libra">Libra</div>
+  </div>  
+<div class="linha"></div>
+  <div>
+      <p>Escolha a moeda de saida:</p>
+    <div><input type="radio" name= "out" value="real">Real</div>
+    <div><input type="radio" name= "out" value="dolar">Dolar</div>
+    <div><input type="radio" name= "out" value="euro">Euro</div>
+    <div><input type="radio" name= "out" value="libra">Libra</div>
+  </div>  
+    </div>
+  <div class="center">
+      <div class = "Digite">Digite o Valor:</div>
+   <div class="digite"><input id="quantia" type="number" step="0.01" placeholder="0.00"></div>
+  
+  <div class="Digite">
+      <button onclick="converter()">converter</button>
+  </div>
+  <div class="Digite">
+      O valor Convertido é: <span id="res">0.0</span>
+  </div>
+</div>
+</div>
+ 
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
